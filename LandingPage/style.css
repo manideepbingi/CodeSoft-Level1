@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f4fa;
+}
+header {
+    background-color: #2978b5;
+    color: white;
+    text-align: center;
+    padding: 40px 0 10px 0;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.features div {
+    background: #fff;
+    padding: 20px;
+    flex: 1;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+.cta {
+    text-align: center;
+    margin: 30px 0;
+}
+.cta button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background: #2978b5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.cta button:hover {
+    background: #194569;
+}
+footer {
+    background: #2978b5;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
